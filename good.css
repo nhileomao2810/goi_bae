@@ -1,0 +1,47 @@
+html {
+    background-color: rgb(238, 227, 229);
+}
+
+.block {
+    position: relative;
+    width: 350px;
+    height: 100px;
+    background-color: aquamarine;
+    top: 150px;
+    left: calc(50% - 175px);
+    border-radius: 14px;
+}
+
+.text{
+    position: absolute;
+    color: rgb(39, 36, 36);
+    font-size: 23px;
+    top: 23px;
+    left: 15px;
+}
+
+.text_1 {
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translate(-20%);
+}
+.text_2 {
+    position: relative;
+    top: 3px;
+}
+.icon {
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    color: rgb(255 138 138);
+    font-size: 40px;
+}
+
+.icon_heart {
+    position: relative;
+    margin-left: 5px;
+    top: 28px;
+    left: 10px;
+    color: pink;
+}
